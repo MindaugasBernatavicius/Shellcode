@@ -10,4 +10,6 @@ int main(int argc, char **argv) {
     memcpy(exec, c, sizeof c);
     ((void(*)())exec)();
 }
+
+// REF: http://www.attactics.org/2016/03/bypassing-antivirus-with-10-lines-of.html?m=1
 ```
